@@ -1,9 +1,11 @@
 @import 'https://fonts.googleapis.com/css?family=Amatic+SC|Crimson+Text|Open+Sans';
 body {
+    z-index:500;
     max-width: 960px;
     font-family: 'Crimson Text';
     margin: 0 auto;
 }
+
 header h1, h3 {
     font-family: 'Amatic SC', sans;
 }
@@ -36,6 +38,10 @@ main section div {
 a {
     color: #0095dd;
     text-decoration:none; 
+}
+a:hover {
+    color:white;
+    background-color: #0095dd;
 }
 #contact-details li#email {
     background: url("images/email.png") 0px center no-repeat;
